@@ -1,0 +1,34 @@
+# 深度学习框架
+torch>=2.0.0
+torchvision
+torchaudio
+
+# Transformers相关
+transformers>=4.35.0
+tokenizers
+datasets
+accelerate
+
+# 量化和优化
+bitsandbytes
+peft
+trl
+
+# 模型库
+huggingface_hub
+
+# 数据处理
+pandas
+numpy
+scikit-learn
+
+# 可视化和监控
+matplotlib
+seaborn
+wandb
+tensorboard
+
+# 实用工具
+tqdm
+jsonlines
+python-dotenv 

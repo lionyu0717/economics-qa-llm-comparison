@@ -1,0 +1,9 @@
+comparison_models:
+- qwen3
+- gemma3
+metrics:
+- response_time
+- answer_length
+- quality_score
+output_format: json
+test_samples: 30
