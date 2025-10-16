@@ -17,16 +17,10 @@ trl
 # 模型库
 huggingface_hub
 
-# 数据处理和文本提取
+# 数据处理
 pandas
 numpy
 scikit-learn
-EbookLib==0.17
-beautifulsoup4==4.12.2
-nltk==3.8.1
-
-# API调用
-openai
 
 # 可视化和监控
 matplotlib
@@ -37,4 +31,4 @@ tensorboard
 # 实用工具
 tqdm
 jsonlines
-python-dotenv
+python-dotenv 

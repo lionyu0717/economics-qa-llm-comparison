@@ -1,0 +1,18 @@
+lora:
+  alpha: 32
+  dropout: 0.1
+  r: 16
+  target_modules:
+  - q_proj
+  - v_proj
+  - k_proj
+  - o_proj
+model_name: google/gemma-3-1b-it
+quantization:
+  device_map: auto
+  load_in_8bit: true
+training:
+  batch_size: 4
+  epochs: 3
+  learning_rate: 5.0e-05
+  max_length: 1024
